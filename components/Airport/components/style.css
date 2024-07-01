@@ -1,0 +1,8 @@
+
+
+@media (max-width: 500px) {
+ .map{
+  height:450px !important;
+  width:450px !important
+ }
+}
