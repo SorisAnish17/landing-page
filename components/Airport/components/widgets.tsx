@@ -10,6 +10,7 @@ export const Widgets = () => {
         display: "flex",
         justifyContent: "space-around",
         flexDirection: { xs: "column", md: "row" },
+        gap: { xs: "2rem", md: "0rem" },
       }}
     >
       {content.map((card) => {
