@@ -3,6 +3,7 @@ import { Box } from "@mui/material";
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/Hero";
 import DownArrowSvg from "../svg/downarrow";
+import Link from "next/link";
 
 export const Header = () => {
   return (
@@ -18,7 +19,9 @@ export const Header = () => {
           zIndex: 1, // Ensure it's above other content
         }}
       >
-        <DownArrowSvg />
+        <Link href="/#about">
+          <DownArrowSvg />
+        </Link>
       </Box>
     </Box>
   );

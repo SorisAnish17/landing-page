@@ -1,5 +1,6 @@
+"use client";
 import { Box } from "@mui/material";
-import React from "react";
+import React, { useEffect } from "react";
 import { Spinner } from "./components/spinner";
 import { ContentLayOut } from "./components/content-layout";
 
@@ -8,9 +9,10 @@ export const About = () => {
     <Box
       sx={{
         width: "100%",
-        height: "100vh",
+        minHeight: "100vh",
         bgcolor: "#111E64",
       }}
+      id="about"
     >
       <Spinner />
       <ContentLayOut />
