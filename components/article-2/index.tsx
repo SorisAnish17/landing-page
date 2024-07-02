@@ -1,5 +1,6 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
+import { content } from "./components/content";
 
 export const ArticleTwo = () => {
   return (
@@ -45,7 +46,7 @@ export const ArticleTwo = () => {
             }}
             variant="h2"
           >
-            Galley Cloud
+            {content.title}
           </Typography>
           <Typography
             sx={{
@@ -54,12 +55,7 @@ export const ArticleTwo = () => {
               fontSize: { xs: "1rem", md: "1.5rem" },
             }}
           >
-            Keep in touch with the groups of people that matter the most, like
-            your family or coworkers. Keep in touch with the groups of people
-            that matter the most, like your family or coworkers. Keep in touch
-            with the groups of people that matter the most, like your family or
-            coworkers. Keep in touch with the groups of people that matter the
-            most, like your family or coworkers.
+            {content.description}
           </Typography>
           <Typography
             sx={{
@@ -70,7 +66,7 @@ export const ArticleTwo = () => {
               fontSize: "1.2rem",
             }}
           >
-            Learn More
+            {content.link}
           </Typography>
         </Box>
       </Box>

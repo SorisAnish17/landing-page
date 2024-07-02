@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography } from "@mui/material";
 import EastIcon from "@mui/icons-material/East";
+import { blogOne, blogTwo, blogThree } from "./content";
 
 export const Layout = () => {
   return (
@@ -38,11 +39,10 @@ export const Layout = () => {
           }}
         >
           <Typography sx={{ fontFamily: "STSong,serif", fontSize: "2.125rem" }}>
-            19 Nov, 24
+            {blogOne.date}
           </Typography>
           <Typography sx={{ fontFamily: "STSong,serif", fontSize: "1.6rem" }}>
-            Create your page create your page create your <br /> page create
-            your page
+            {blogOne.title}
           </Typography>
         </Box>
         <Box
@@ -67,23 +67,23 @@ export const Layout = () => {
               borderRadius: "0.5rem 0.5rem 0rem 0rem",
             }}
           >
-            <Box sx={{ bgcolor: "white", width: "70px", textAlign: "center" }}>
+            <Box
+              sx={{
+                bgcolor: "white",
+                width: "70px",
+                height: "70px",
+                textAlign: "center",
+              }}
+            >
               <Typography
                 sx={{
                   fontFamily: "STSong,serif",
                   fontSize: { lg: "0.8rem", xl: "1.5rem" },
                 }}
               >
-                20
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "STSong,serif",
-                  fontSize: { lg: "0.8rem", xl: "1.5rem" },
-                  fontWeight: "800",
-                }}
-              >
-                Aug,24
+                {blogTwo.date}
+                <br />
+                {blogTwo.day}
               </Typography>
             </Box>
           </Box>
@@ -98,7 +98,7 @@ export const Layout = () => {
             <Typography
               sx={{ fontFamily: "STSong,serif", fontSize: "2.125rem" }}
             >
-              Create your page
+              {blogTwo.title}
             </Typography>
             <Typography
               sx={{
@@ -107,11 +107,7 @@ export const Layout = () => {
                 fontSize: { xl: "1.5rem", lg: "1rem" },
               }}
             >
-              Keep in touch with the groups of people that matter the most, like
-              your family or coworkers.Keep in touch with the groups of people
-              that matter the most, like your family or coworkers.Keep in touch
-              with the groups of people that matter the most, like your family
-              or coworkers.
+              {blogTwo.description}
             </Typography>
             <Box
               sx={{
@@ -127,7 +123,7 @@ export const Layout = () => {
                   textDecoration: "underline",
                 }}
               >
-                To Know More
+                {blogTwo.Link}
               </Typography>
               <Box
                 sx={{
@@ -168,22 +164,23 @@ export const Layout = () => {
               borderRadius: "0.5rem 0.5rem 0rem 0rem",
             }}
           >
-            <Box sx={{ bgcolor: "white", width: "70px", textAlign: "center" }}>
+            <Box
+              sx={{
+                bgcolor: "white",
+                width: "70px",
+                height: "70px",
+                textAlign: "center",
+              }}
+            >
               <Typography
                 sx={{
                   fontFamily: "STSong,serif",
                   fontSize: { lg: "0.8rem", xl: "1.5rem" },
                 }}
               >
-                20
-              </Typography>
-              <Typography
-                sx={{
-                  fontFamily: "STSong,serif",
-                  fontSize: { lg: "0.8rem", xl: "1.5rem" },
-                }}
-              >
-                Aug,24
+                {blogThree.date}
+                <br />
+                {blogThree.day}
               </Typography>
             </Box>
           </Box>
@@ -198,7 +195,7 @@ export const Layout = () => {
             <Typography
               sx={{ fontFamily: "STSong,serif", fontSize: "2.125rem" }}
             >
-              Create your page
+              {blogThree.title}
             </Typography>
             <Typography
               sx={{
@@ -207,11 +204,7 @@ export const Layout = () => {
                 fontSize: { xl: "1.5rem", lg: "1rem" },
               }}
             >
-              Keep in touch with the groups of people that matter the most, like
-              your family or coworkers.Keep in touch with the groups of people
-              that matter the most, like your family or coworkers.Keep in touch
-              with the groups of people that matter the most, like your family
-              or coworkers.
+              {blogThree.description}
             </Typography>
             <Box
               sx={{
@@ -227,7 +220,7 @@ export const Layout = () => {
                   textDecoration: "underline",
                 }}
               >
-                To Know More
+                {blogThree.Link}
               </Typography>
               <Box
                 sx={{

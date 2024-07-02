@@ -1,6 +1,7 @@
 import React from "react";
 import { Box, Typography, Container } from "@mui/material";
 import EastIcon from "@mui/icons-material/East";
+import { about, subDescription } from "./components/content";
 
 export const ArticleOne = () => {
   return (
@@ -42,7 +43,7 @@ export const ArticleOne = () => {
                 my: { xs: "1rem", md: "3rem" },
               }}
             >
-              GalleyCloud
+              {about.title}
             </Typography>
             <Typography
               sx={{
@@ -51,12 +52,7 @@ export const ArticleOne = () => {
                 my: { xs: "1rem", md: "3rem" },
               }}
             >
-              Keep in touch with the groups of people that matter the most, like
-              your family or coworkers. Keep in touch with the groups of people
-              that matter the most, like your family or coworkers. Keep in touch
-              with the groups of people that matter the most, like your family
-              or coworkers. Keep in touch with the groups of people that matter
-              the most, like your family or coworkers.
+              {about.description}
             </Typography>
             <Typography
               sx={{
@@ -66,7 +62,7 @@ export const ArticleOne = () => {
                 fontSize: { xs: "1rem", md: "1.4rem" },
               }}
             >
-              Learn more
+              {about.link}
             </Typography>
           </Box>
           <Box sx={{ display: "flex" }}>
@@ -113,7 +109,7 @@ export const ArticleOne = () => {
                 color: "#111E64",
               }}
             >
-              About Jet Catering
+              {subDescription.title}
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column", gap: "1rem" }}>
               <Typography
@@ -123,9 +119,7 @@ export const ArticleOne = () => {
                   fontSize: { lg: "1.1rem", xl: "1.5rem" },
                 }}
               >
-                Keep in touch with the groups of people that matter the most,
-                like your family or coworkers. Keep in touch with the groups of
-                people that matter the most, like your family or coworkers.
+                {subDescription.description}
               </Typography>
               <Box
                 sx={{
