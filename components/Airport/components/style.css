@@ -1,9 +1,16 @@
 
 
-@media (max-width: 700px) {
+@media (max-width: 500px) {
  .map{
   height:450px !important;
   width:350px !important;
-
  }
+}
+
+
+@media screen and (max-width:375px) {
+    .map{
+        height:300px !important;
+        width:300px !important
+    }
 }
