@@ -13,7 +13,7 @@ export const Header = () => {
       <Box
         sx={{
           position: "absolute",
-          bottom: "50px", // Adjusted to position 50px above the bottom
+          bottom: "10px", // Adjusted to position 50px above the bottom
           left: "50%", // Center horizontally
           transform: "translateX(-50%)", // Center horizontally
           zIndex: 1, // Ensure it's above other content
