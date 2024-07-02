@@ -396,7 +396,7 @@ export const LayOut = () => {
                 }}
               >
                 <Image
-                  src={"/assets/images/Instagram.png"}
+                  src={"/assets/images/Insta.png"}
                   alt="insta Logo"
                   width={20}
                   height={20}
@@ -414,7 +414,7 @@ export const LayOut = () => {
                 }}
               >
                 <Image
-                  src={"/assets/images/facebook.png"}
+                  src={"/assets/images/Facebook.png"}
                   alt="insta Logo"
                   width={20}
                   height={20}
