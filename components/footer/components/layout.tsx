@@ -116,10 +116,16 @@ export const LayOut = () => {
           </Box>
         </Box>
         {/*section 2*/}
-        <Divider sx={{ bgcolor: "black", m: "2rem 0rem" }} />
+        <Divider
+          sx={{
+            bgcolor: "black",
+            m: "2rem 0rem",
+            display: { xs: "none", md: "block" },
+          }}
+        />
         <Box
           sx={{
-            display: "flex",
+            display: { xs: "none", md: "flex" },
             justifyContent: "space-between",
             alignItems: "center",
             flexDirection: { xs: "column", md: "row" },

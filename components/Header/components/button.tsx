@@ -15,7 +15,7 @@ export const Button: React.FC<Props> = ({ icon, title }) => {
         alignItems: "center",
         justifyContent: "center",
         border: "0.5px solid white",
-        width: "250px",
+        width: { xs: "150px", md: "250px" },
         p: "0.3rem",
         gap: "0.5rem",
       }}
@@ -24,7 +24,7 @@ export const Button: React.FC<Props> = ({ icon, title }) => {
       <Typography
         sx={{
           fontFamily: "STSong,Serif",
-          fontSize: "1.5rem",
+          fontSize: { xs: "1rem", md: "1.5rem" },
           color: "#f4f4eb",
         }}
       >

@@ -19,10 +19,11 @@
 }
 
 body {
-  width: 100vw;
-  min-height: 100vh;
-  scroll-behavior: smooth;
-  margin: 0;
+  width: 100vw !important;
+  min-height: 100vh !important;
+  scroll-behavior: smooth !important;
+  margin: 0px !important;
+  padding:0px !important;
   overflow-x: hidden !important;
   background-color: #111E64;
 }

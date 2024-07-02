@@ -8,7 +8,6 @@ import EastIcon from "@mui/icons-material/East";
 export const Carousel = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
 
-  // Function to go to the next slide
   const nextSlide = () => {
     setCurrentSlide((prevSlide) =>
       prevSlide === content.length - 1 ? 0 : prevSlide + 1
@@ -16,11 +15,10 @@ export const Carousel = () => {
   };
 
   useEffect(() => {
-    // Automatically move to the next slide every 5 seconds
     const interval = setInterval(nextSlide, 5000);
 
     return () => {
-      clearInterval(interval); // Clean up the interval on component unmount
+      clearInterval(interval);
     };
   }, []);
 
@@ -39,7 +37,8 @@ export const Carousel = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          gap: "5rem",
+          flexDirection: { xs: "column", md: "row" },
+          gap: { xs: "2rem", lg: "5rem" },
           mt: "2rem",
         }}
       >
@@ -49,35 +48,52 @@ export const Carousel = () => {
               backgroundImage: `url(${slide.img})`,
               backgroundPosition: "center",
               backgroundSize: "cover",
-              width: { xl: "700px", lg: "500px" },
-              height: "500px",
+              width: {
+                xs: "250px",
+                sm: "400px",
+                md: "500px",
+                xl: "700px",
+                lg: "500px",
+              },
+              height: { xs: "300px", md: "500px" },
               borderRadius: "0.5rem",
             }}
           />
         </Box>
-        <Box sx={{ width: "46.25rem" }}>
+        <Box
+          sx={{
+            width: { xs: "100%", lg: "46.25rem" },
+            p: { xs: "1rem", sm: "0rem" },
+          }}
+        >
           <Typography
             sx={{
-              my: "3rem",
               fontFamily: "STSong, serif",
               color: "#00000099",
-              fontSize: "1.5rem",
+              fontSize: { xs: "1rem", md: "1.5rem" },
             }}
           >
             {slide.review}
           </Typography>
-          <Typography sx={{ fontFamily: "STSong, serif", fontSize: "1.5rem" }}>
+          <Typography
+            sx={{
+              fontFamily: "STSong, serif",
+              fontSize: { xs: "1rem", md: "1.5rem" },
+              my: "2rem",
+            }}
+          >
             {slide.address}
           </Typography>
         </Box>
       </Box>
-      <Box sx={{ my: "8rem" }}>
+      <Box sx={{ my: { xs: "0rem", md: "8rem" } }}>
         <Box
           sx={{
             display: "flex",
             justifyContent: "space-between",
             mt: 2,
             alignItems: "center",
+            p: { xs: "2rem", md: "0rem" },
           }}
         >
           <Box

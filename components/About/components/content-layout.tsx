@@ -26,15 +26,22 @@ export const ContentLayOut = () => {
         >
           About <br /> GalleyCloud
         </Typography>
-        <Box sx={{ display: "flex", flexDirection: "column" }}>
+        <Box
+          sx={{
+            display: "flex",
+            flexDirection: "column",
+          }}
+        >
           <Box>
             <Typography
               sx={{
-                width: "31.313rem",
+                width: { xs: "100%", md: "31.313rem" },
                 color: "#FFFFFF99",
                 fontFamily: "STSong,Serif",
-                fontSize: "1.5rem",
+                fontSize: { xs: "1.3rem", md: "1.5rem" },
+                p: "1rem",
               }}
+              align="center"
             >
               Keep in touch with the groups of people that matter the most, like
               your family or coworkers.Keep in touch with the groups of people
@@ -50,6 +57,7 @@ export const ContentLayOut = () => {
                 mt: "1rem",
                 color: "#FFFFFF",
               }}
+              align="center"
             >
               Learn more
             </Typography>

@@ -16,7 +16,12 @@ export const Widgets = () => {
         return (
           <Box
             key={card.cardNo}
-            sx={{ display: "flex", flexDirection: "column", gap: "0.5rem" }}
+            sx={{
+              display: "flex",
+              flexDirection: "column",
+              gap: { xs: "1rem", md: "0.5rem" },
+              alignItems: { xs: "center", md: "auto" },
+            }}
           >
             <Box sx={{ display: "flex", alignItems: "center" }}>
               <Box sx={{ fontFamily: "Soligant,serif", fontSize: "3.75rem" }}>

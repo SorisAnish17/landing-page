@@ -42,7 +42,10 @@ export const HeroSection = () => {
               gap: "2rem",
             }}
           >
-            <Typography variant="h1">
+            <Typography
+              variant="h1"
+              sx={{ fontSize: { xs: "3rem", md: "6rem" } }}
+            >
               Revolutionise Your In <br />
               Flight Dining Experience
             </Typography>

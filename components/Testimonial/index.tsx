@@ -12,7 +12,7 @@ export const Testimonial = () => {
         flexDirection: "column",
         justifyContent: "center",
         alignItems: "center",
-        gap: "5rem",
+        gap: { xs: "2rem", lg: "5rem" },
         py: "2rem",
       }}
     >

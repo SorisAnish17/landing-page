@@ -12,7 +12,7 @@ export const ArticleTwo = () => {
         flexDirection: "column",
         alignItems: "center",
         justifyContent: "center",
-        padding: "2rem", // Add padding for spacing
+        padding: "2rem",
       }}
     >
       <Box
@@ -20,8 +20,9 @@ export const ArticleTwo = () => {
           display: "flex",
           maxWidth: "1600px",
           gap: "5rem",
+          flexDirection: { xs: "column", md: "row" },
           justifyContent: "space-between",
-          alignItems: "center", // Center align items vertically
+          alignItems: "center",
         }}
       >
         <Box
@@ -29,17 +30,17 @@ export const ArticleTwo = () => {
             backgroundImage: `url(/assets/images/section2.png)`,
             backgroundSize: "cover",
             backgroundPosition: "center",
-            width: { xl: "750px", lg: "500px" },
-            height: { xl: "750px", lg: "500px" },
+            width: { xs: "300px", xl: "750px", lg: "500px" },
+            height: { xs: "300px", xl: "750px", lg: "500px" },
             borderRadius: "0.5rem",
           }}
         />
-        <Box sx={{ maxWidth: "750px" }}>
+        <Box sx={{ width: { xs: "300px", lg: "700px" } }}>
           <Typography
             sx={{
               my: "2rem",
               fontFamily: "Soligant, serif",
-              fontSize: "3.75rem",
+              fontSize: { xs: "2rem", md: "3.75rem" },
             }}
             variant="h2"
           >
@@ -49,7 +50,7 @@ export const ArticleTwo = () => {
             sx={{
               my: "2rem",
               fontFamily: "STSong, serif",
-              fontSize: "1.5rem",
+              fontSize: { xs: "1rem", md: "1.5rem" },
             }}
           >
             Keep in touch with the groups of people that matter the most, like

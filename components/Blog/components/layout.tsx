@@ -18,13 +18,14 @@ export const Layout = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
+          flexDirection: { xs: "column", md: "row" },
           gap: "3rem",
-          p: "4rem 10rem",
+          p: { xs: "2rem 4rem", md: "4rem 10rem" },
         }}
       >
         <Box
           sx={{
-            height: { xl: "800px", lg: "500px" },
+            height: { xs: "600px", xl: "800px", lg: "500px" },
             flex: "2.6",
             backgroundImage: `url(assets/images/blog1.png)`,
             backgroundPosition: "center",
@@ -48,7 +49,7 @@ export const Layout = () => {
           sx={{
             color: "white",
             flex: "1.5",
-            height: { xl: "800px", lg: "500px" },
+            height: { xs: "400px", xl: "800px", lg: "500px" },
             display: "flex",
             flexDirection: "column",
           }}
@@ -57,7 +58,7 @@ export const Layout = () => {
             sx={{
               backgroundImage: `url(/assets/images/blog2.png)`,
               backgroundPosition: "center",
-              height: "400px",
+              height: { xs: "300px", md: "400px" },
               backgroundSize: "cover",
               display: "flex",
               color: "black",
@@ -88,7 +89,7 @@ export const Layout = () => {
           </Box>
           <Box
             sx={{
-              mt: "3rem",
+              mt: { xs: "1rem", md: "3rem" },
               display: "flex",
               flexDirection: "column",
               gap: "1rem",
@@ -149,7 +150,7 @@ export const Layout = () => {
           sx={{
             color: "white",
             flex: "1.5",
-            height: { xl: "800px", lg: "500px" },
+            height: { xs: "400px", xl: "800px", lg: "500px" },
             display: "flex",
             flexDirection: "column",
           }}
@@ -158,7 +159,7 @@ export const Layout = () => {
             sx={{
               backgroundImage: `url(/assets/images/blog3.png)`,
               backgroundPosition: "center",
-              height: "400px",
+              height: { xs: "300px", md: "400px" },
               backgroundSize: "cover",
               display: "flex",
               color: "black",
@@ -188,7 +189,7 @@ export const Layout = () => {
           </Box>
           <Box
             sx={{
-              mt: "3rem",
+              mt: { xs: "1rem", md: "3rem" },
               display: "flex",
               flexDirection: "column",
               gap: "1rem",

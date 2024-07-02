@@ -8,7 +8,7 @@ export const About = () => {
     <Box
       sx={{
         width: "100%",
-        height: "90vh",
+        height: "100vh",
         bgcolor: "#111E64",
       }}
     >
