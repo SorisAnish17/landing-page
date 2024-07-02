@@ -5,5 +5,23 @@
   height:450px !important;
   width:350px !important;
  }
+ .container{
+    align-items: center !important;
+ }
+}
+
+
+@media (min-width: 500px) {
+ .map{
+  height:500px !important;
+  width:500px !important;
+ }
+}
+
+@media (min-width: 1200px) {
+ .map{
+  height:800px !important;
+  width:1800px !important;
+ }
 }
 

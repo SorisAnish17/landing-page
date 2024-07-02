@@ -7,7 +7,7 @@ export const Airport = () => {
   return (
     <Box
       sx={{
-        minHeight: "80vh",
+        height: "100%",
         width: "100%",
         bgcolor: "#111E64",
         color: "white ",

@@ -7,7 +7,7 @@ import Link from "next/link";
 
 export const Header = () => {
   return (
-    <Box sx={{ bgcolor: "#111111", minHeight: "100%", position: "relative" }}>
+    <Box sx={{ bgcolor: "#111111", minHeight: "100vh", position: "relative" }}>
       <Navbar />
       <HeroSection />
       <Box
@@ -20,7 +20,9 @@ export const Header = () => {
         }}
       >
         <Link href="/#about">
-          <DownArrowSvg />
+          <Box>
+            <DownArrowSvg />
+          </Box>
         </Link>
       </Box>
     </Box>

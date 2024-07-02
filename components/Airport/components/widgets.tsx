@@ -1,7 +1,9 @@
+"use client";
 import { Box } from "@mui/material";
 import React from "react";
 import { content } from "../components/content";
 import AddIcon from "@mui/icons-material/Add";
+import { motion } from "framer-motion";
 
 export const Widgets = () => {
   return (
@@ -15,27 +17,49 @@ export const Widgets = () => {
     >
       {content.map((card) => {
         return (
-          <Box
+          <motion.div
             key={card.cardNo}
-            sx={{
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            style={{
               display: "flex",
               flexDirection: "column",
-              gap: { xs: "1rem", md: "0.5rem" },
-              alignItems: { xs: "center", md: "auto" },
+              gap: "1rem",
             }}
+            className="container"
           >
-            <Box sx={{ display: "flex", alignItems: "center" }}>
+            <motion.div
+              style={{ display: "flex" }}
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.3 }}
+            >
               <Box sx={{ fontFamily: "Soligant,serif", fontSize: "3.75rem" }}>
                 {card.count}
               </Box>
               <Box>
                 <AddIcon sx={{ fontSize: "3rem" }} />
               </Box>
-            </Box>
-            <Box sx={{ fontFamily: "STSong,serif" }}>{card.title}</Box>
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.6 }}
+              style={{ fontFamily: "STSong,serif" }}
+            >
+              {card.title}
+            </motion.div>
             <hr />
-            <Box sx={{ fontFamily: "STSong,serif" }}>{card.description}</Box>
-          </Box>
+            <motion.div
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ delay: 0.9 }}
+              style={{ fontFamily: "STSong,serif" }}
+            >
+              {card.description}
+            </motion.div>
+          </motion.div>
         );
       })}
     </Box>
