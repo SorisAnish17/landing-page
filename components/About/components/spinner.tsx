@@ -14,12 +14,7 @@ export const Spinner = () => {
 
   return (
     <Box sx={spinnerContainerStyle}>
-      <Marquee
-        direction="left"
-        speed={100}
-        delay={1}
-        style={{ width: "100vw" }}
-      >
+      <Marquee direction="left" speed={100} delay={1}>
         <Box sx={{ display: "flex", gap: "10rem" }}>
           <Box sx={{ display: "flex", alignItems: "center" }}>
             <Typography
