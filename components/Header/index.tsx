@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import { Box } from "@mui/material";
 import { Navbar } from "./components/Navbar";
 import { HeroSection } from "./components/Hero";
 import DownArrowSvg from "../svg/downarrow";
 import Link from "next/link";
+import { motion } from "framer-motion";
 
 export const Header = () => {
   return (
@@ -13,16 +15,22 @@ export const Header = () => {
       <Box
         sx={{
           position: "absolute",
-          bottom: "10px", // Adjusted to position 50px above the bottom
-          left: "50%", // Center horizontally
-          transform: "translateX(-50%)", // Center horizontally
-          zIndex: 1, // Ensure it's above other content
+          bottom: "10px",
+          left: "50%",
+          transform: "translateX(-50%)",
+          zIndex: 1,
         }}
       >
         <Link href="/#about">
-          <Box>
+          <motion.div
+            initial={{ y: 0 }}
+            animate={{
+              y: [-5, 5, -5],
+              transition: { duration: 2, repeat: Infinity },
+            }}
+          >
             <DownArrowSvg />
-          </Box>
+          </motion.div>
         </Link>
       </Box>
     </Box>
