@@ -12,7 +12,7 @@ export const About = () => {
         bgcolor: "#111E64",
       }}
     >
-      {/* <Spinner /> */}
+      <Spinner />
       <ContentLayOut />
     </Box>
   );
