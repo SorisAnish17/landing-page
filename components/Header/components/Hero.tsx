@@ -4,7 +4,6 @@ import { Typography, Container } from "@mui/material";
 import { Button } from "./button";
 import LocationIcon from "../../svg/framer";
 import OrderSvg from "../../svg/order";
-import DownArrowSvg from "../../svg/downarrow";
 
 export const HeroSection = () => {
   return (

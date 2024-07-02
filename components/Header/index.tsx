@@ -6,7 +6,7 @@ import DownArrowSvg from "../svg/downarrow";
 
 export const Header = () => {
   return (
-    <Box sx={{ bgcolor: "#111111", minHeight: "100vh", position: "relative" }}>
+    <Box sx={{ bgcolor: "#111111", minHeight: "100%", position: "relative" }}>
       <Navbar />
       <HeroSection />
       <Box
