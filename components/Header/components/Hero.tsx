@@ -62,9 +62,6 @@ export const HeroSection = () => {
             <Button title={"Search Location"} icon={<LocationIcon />} />
             <Button title={"Order Now"} icon={<OrderSvg />} />
           </Box>
-          <Box sx={{ position: "absolute", bottom: "100px" }}>
-            <DownArrowSvg />
-          </Box>
         </Box>
       </Container>
     </Box>
