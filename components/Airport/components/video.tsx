@@ -31,6 +31,19 @@ export const BackgroundVideo: React.FC = () => {
         justifyContent: "center",
       }}
     >
+      <Box
+        sx={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          width: "100%",
+          height: "100%",
+          zIndex: -1,
+          backgroundImage: `url(/assets/gif/Comp 1_1.gif)`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+        }}
+      />
       <Image
         src={`/assets/gif/Comp 1_1.gif`}
         width={1800}
