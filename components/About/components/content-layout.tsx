@@ -3,7 +3,7 @@ import { Box, Typography, Container } from "@mui/material";
 
 export const ContentLayOut = () => {
   return (
-    <Container>
+    <Container maxWidth={"xl"}>
       <Box
         sx={{
           color: "white",
@@ -41,7 +41,7 @@ export const ContentLayOut = () => {
                 fontSize: { xs: "1.3rem", md: "1.5rem" },
                 p: "1rem",
               }}
-              align="center"
+              align="left"
             >
               Keep in touch with the groups of people that matter the most, like
               your family or coworkers.Keep in touch with the groups of people

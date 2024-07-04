@@ -7,16 +7,4 @@ export const theme = createTheme({
     h3: { fontFamily: "Miama, sans-serif", fontSize: "2rem" },
     h6: { fontFamily: "STSong, serif", fontSize: "1.2rem" },
   },
-  components: {
-    MuiContainer: {
-      styleOverrides: {
-        maxWidthXl: {
-          padding: "0px !important",
-          margin: "0px !important",
-          width: "100%",
-          maxWidth: "100% !important",
-        },
-      },
-    },
-  },
 });

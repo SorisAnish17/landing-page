@@ -19,7 +19,7 @@ export const HeroSection = () => {
         // padding: "0 20px",
       }}
     >
-      <Container>
+      <Container maxWidth={"xl"}>
         <Box
           sx={{
             width: "100%",
