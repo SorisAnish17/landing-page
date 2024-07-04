@@ -38,7 +38,7 @@ export const ContentLayOut = () => {
                 width: { xs: "100%", md: "31.313rem" },
                 color: "#FFFFFF99",
                 fontFamily: "STSong,Serif",
-                fontSize: { xs: "1.3rem", md: "1.5rem" },
+                fontSize: { xs: "1rem", md: "1.5rem" },
                 p: "1rem",
               }}
               align="left"
