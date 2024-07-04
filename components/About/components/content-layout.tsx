@@ -21,7 +21,6 @@ export const ContentLayOut = () => {
           variant="h2"
           sx={{
             textAlign: { xs: "center", md: "right" },
-            fontFamily: "Soligant, sans-serif",
           }}
         >
           About <br /> GalleyCloud

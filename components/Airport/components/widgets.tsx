@@ -11,7 +11,7 @@ export const Widgets = () => {
       sx={{
         display: "flex",
         justifyContent: "space-around",
-        flexDirection: { xs: "column", md: "row" },
+        flexDirection: { xs: "column", sm: "row" },
         gap: { xs: "2rem", md: "0rem" },
       }}
     >

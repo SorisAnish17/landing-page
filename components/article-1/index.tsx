@@ -34,7 +34,6 @@ export const ArticleOne = () => {
             }}
           >
             <Typography
-              variant="h5"
               sx={{
                 fontSize: { xs: "2rem", md: "3.75rem" },
                 fontFamily: "Soligant, serif",

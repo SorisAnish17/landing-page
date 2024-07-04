@@ -20,7 +20,6 @@ export const ArticleTwo = () => {
         <Box
           sx={{
             display: "flex",
-            maxWidth: "1600px",
             gap: { xs: "2rem", md: "5rem" },
             flexDirection: { xs: "column", md: "row" },
             justifyContent: "space-between",
@@ -41,7 +40,6 @@ export const ArticleTwo = () => {
             <Typography
               sx={{
                 my: "2rem",
-                fontFamily: "Soligant, serif",
                 fontSize: { xs: "2rem", md: "3.75rem" },
                 textAlign: { xs: "center", md: "auto" },
               }}

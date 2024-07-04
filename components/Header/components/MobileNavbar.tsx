@@ -42,31 +42,31 @@ const Sidebar: React.FC<Props> = ({ isDrawerOpen, toggleDrawer }) => {
         >
           <Box sx={{ display: "flex", alignItems: "center", gap: "0.2rem" }}>
             <HomeOutlinedIcon sx={{ color: "white" }} />
-            <Typography variant="h6" color="white">
+            <Typography color="white" sx={{ fontSize: "1.2rem" }}>
               Home
             </Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "0.2rem" }}>
             <BusinessOutlinedIcon sx={{ color: "white" }} />
-            <Typography variant="h6" color="white">
+            <Typography color="white" sx={{ fontSize: "1.2rem" }}>
               About Us
             </Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "0.2rem" }}>
             <AssignmentOutlinedIcon sx={{ color: "white" }} />
-            <Typography variant="h6" color="white">
+            <Typography color="white" sx={{ fontSize: "1.2rem" }}>
               Terms and Conditions
             </Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "0.2rem" }}>
             <ShieldOutlinedIcon sx={{ color: "white" }} />
-            <Typography variant="h6" color="white">
+            <Typography sx={{ fontSize: "1.2rem" }} color="white">
               Privacy Policy
             </Typography>
           </Box>
           <Box sx={{ display: "flex", alignItems: "center", gap: "0.2rem" }}>
             <ContactPageOutlinedIcon sx={{ color: "white" }} />
-            <Typography variant="h6" color="white">
+            <Typography sx={{ fontSize: "1.2rem" }} color="white">
               Contact
             </Typography>
           </Box>

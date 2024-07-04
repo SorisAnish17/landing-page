@@ -27,17 +27,7 @@ export const LayOut = () => {
           }}
         >
           <Box>
-            <Typography
-              variant="h4"
-              sx={{
-                color: "black",
-                fontSize: {
-                  xs: "2.5rem",
-                  lg: "4.75rem",
-                  fontFamily: "Soligant,serif",
-                },
-              }}
-            >
+            <Typography variant="h4">
               Ready To <br />
               Plan Food Order <br />
               For Your <br />
@@ -68,14 +58,7 @@ export const LayOut = () => {
             </Box>
           </Box>
           <Box>
-            <Typography
-              variant="h4"
-              sx={{
-                color: "black",
-                fontSize: { xs: "2.5rem", lg: "4.75rem" },
-                fontFamily: "Soligant,serif",
-              }}
-            >
+            <Typography variant="h4">
               Looking For <br />
               The Perfect <br /> Venue?
             </Typography>
@@ -133,16 +116,12 @@ export const LayOut = () => {
           }}
         >
           <Box sx={{ textAlign: { xs: "center", sm: "auto" } }}>
-            <Typography
-              variant="h6"
-              sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              fontFamily={"Soligant,serif"}
-            >
+            <Typography variant="h6" sx={{ mb: { md: "1rem" } }}>
               Catering
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -154,7 +133,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -166,7 +145,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -178,16 +157,12 @@ export const LayOut = () => {
             </Box>
           </Box>
           <Box sx={{ textAlign: { xs: "center", sm: "auto" } }}>
-            <Typography
-              variant="h6"
-              sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              fontFamily={"Soligant,serif"}
-            >
+            <Typography variant="h6" sx={{ mb: { md: "1rem" } }}>
               Venues
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -199,7 +174,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -211,7 +186,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -223,16 +198,12 @@ export const LayOut = () => {
             </Box>
           </Box>
           <Box sx={{ textAlign: "center" }}>
-            <Typography
-              variant="h6"
-              sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              fontFamily={"Soligant,serif"}
-            >
+            <Typography variant="h6" sx={{ mb: { md: "1rem" } }}>
               The Farm
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -244,7 +215,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -256,7 +227,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -268,16 +239,12 @@ export const LayOut = () => {
             </Box>
           </Box>
           <Box sx={{ textAlign: { xs: "center", sm: "auto" } }}>
-            <Typography
-              variant="h6"
-              sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              fontFamily={"Soligant,serif"}
-            >
+            <Typography variant="h6" sx={{ mb: { md: "1rem" } }}>
               The Company
             </Typography>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -289,7 +256,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -301,7 +268,7 @@ export const LayOut = () => {
             </Box>
             <Box sx={{ display: "flex", flexDirection: "column" }}>
               <Typography
-                variant="h2"
+                variant="body1"
                 sx={{
                   fontSize: "1rem",
                   color: "#6C6C6C",
@@ -327,47 +294,13 @@ export const LayOut = () => {
             <Typography sx={{ fontFamily: "Soligant,serif", fontSize: "2rem" }}>
               Contact Information
             </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                fontFamily: "STSong,Serif",
-                color: "#6C6C6C",
-                fontSize: { md: "1rem", xs: "0.9rem" },
-              }}
-            >
+            <Typography variant="h5">
               Galley Cloud, The One Tower, Internet City, Dubai, United Arab
               Emirates
             </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                fontFamily: "STSong,Serif",
-                color: "#6C6C6C",
-                fontSize: { md: "1rem", xs: "0.9rem" },
-              }}
-            >
-              partners@galleycloud.com
-            </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                fontFamily: "STSong,Serif",
-                color: "#6C6C6C",
-                fontSize: { md: "1rem", xs: "0.9rem" },
-              }}
-            >
-              +971 04 548 2436
-            </Typography>
-            <Typography
-              variant="h5"
-              sx={{
-                fontFamily: "STSong,Serif",
-                color: "#6C6C6C",
-                fontSize: { md: "1rem", xs: "0.9rem" },
-              }}
-            >
-              +971 04 (kitchen)
-            </Typography>
+            <Typography variant="h5">partners@galleycloud.com</Typography>
+            <Typography variant="h5">+971 04 548 2436</Typography>
+            <Typography variant="h5">+971 04 (kitchen)</Typography>
           </Box>
           <Box mt={2}>
             <Typography
@@ -402,7 +335,7 @@ export const LayOut = () => {
                   height={20}
                 />{" "}
                 <Typography
-                  variant="h4"
+                  variant="body2"
                   color={"#6C6C6C"}
                   fontSize={"1rem"}
                   fontFamily={"STSong,Serif"}
@@ -425,7 +358,7 @@ export const LayOut = () => {
                   height={20}
                 />
                 <Typography
-                  variant="h4"
+                  variant="body2"
                   color={"#6C6C6C"}
                   fontSize={"1rem"}
                   fontFamily={"STSong,Serif"}
@@ -450,7 +383,7 @@ export const LayOut = () => {
           fontFamily: "STSong,Serif",
         }}
       >
-        <Typography variant="body2">
+        <Typography>
           © All rights reserved (Website Developed & Managed by GALLEYCLOUD)
         </Typography>
       </Box>

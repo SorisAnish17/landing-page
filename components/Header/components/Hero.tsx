@@ -48,12 +48,7 @@ export const HeroSection = () => {
               Revolutionise Your In <br />
               Flight Dining Experience
             </Typography>
-            <Typography
-              variant="h3"
-              sx={{
-                fontSize: "3rem",
-              }}
-            >
+            <Typography variant="h3">
               Potential With Our Food Delivery Platform
             </Typography>
           </Box>

@@ -7,11 +7,7 @@ export const Layout = () => {
   return (
     <Box sx={{ color: "white", m: "3rem 0rem" }}>
       <Container maxWidth={"xl"}>
-        <Typography
-          textAlign={"center"}
-          sx={{ fontFamily: "Soligant,serif" }}
-          variant="h2"
-        >
+        <Typography textAlign={"center"} variant="h2">
           Blog
         </Typography>
         <Box

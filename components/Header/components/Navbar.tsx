@@ -64,31 +64,26 @@ export const Navbar = () => {
           }}
         >
           <Typography
-            variant="h6"
             sx={{ fontSize: { sm: "1rem", xl: "1.125rem" }, color: "black" }}
           >
             Home
           </Typography>
           <Typography
-            variant="h6"
             sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             About Us
           </Typography>
           <Typography
-            variant="h6"
             sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Terms and Conditions
           </Typography>
           <Typography
-            variant="h6"
             sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Privacy Policy
           </Typography>
           <Typography
-            variant="h6"
             sx={{ color: "black", fontSize: { sm: "1rem", xl: "1.125rem" } }}
           >
             Contact

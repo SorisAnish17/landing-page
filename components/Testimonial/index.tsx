@@ -17,10 +17,7 @@ export const Testimonial = () => {
       }}
     >
       <Container maxWidth={"xl"}>
-        <Typography
-          variant="h2"
-          sx={{ fontFamily: "Soligant,serif", textAlign: "center" }}
-        >
+        <Typography variant="h2" sx={{ textAlign: "center" }}>
           Testimonial
         </Typography>
         <Carousel />

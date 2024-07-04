@@ -16,7 +16,6 @@ export const Airport = () => {
       <Typography
         variant="h2"
         sx={{
-          fontFamily: "Soligant,sans-serif",
           display: "flex",
           justifyContent: "center",
           p: "1rem",
