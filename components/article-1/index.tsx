@@ -7,39 +7,38 @@ export const ArticleOne = () => {
   return (
     <Box
       sx={{
-        minHeight: "50vh",
+        minHeight: "100vh",
+        width: "100%",
         bgcolor: "#FFFFFF",
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        p: { xs: "0rem", md: "5rem 0rem" },
       }}
     >
-      <Container
-        maxWidth={false}
-        sx={{
-          padding: { xs: "3rem 3rem", md: "9rem 2rem" },
-          m: "0rem",
-          display: "flex",
-          flexDirection: "column",
-          alignItems: "center",
-        }}
-      >
+      <Container maxWidth={"xl"}>
         <Box
           sx={{
             display: "flex",
-            gap: "5rem",
+            justifyContent: "space-around",
             width: "100%",
-            maxWidth: "1600px",
             flexDirection: { xs: "column", lg: "row" },
             alignItems: "center",
           }}
         >
           <Box
-            sx={{ width: { xs: "100%", lg: "700px" }, alignSelf: "flex-end" }}
+            sx={{
+              width: { xs: "100%", lg: "700px" },
+              alignSelf: "flex-end",
+              mb: "1rem",
+            }}
           >
             <Typography
               variant="h5"
               sx={{
                 fontSize: { xs: "2rem", md: "3.75rem" },
                 fontFamily: "Soligant, serif",
-                textAlign: "center",
+                textAlign: "left",
                 my: { xs: "1rem", md: "3rem" },
               }}
             >
@@ -86,7 +85,6 @@ export const ArticleOne = () => {
             justifyContent: "flex-end",
             alignItems: "center",
             width: "100%",
-            maxWidth: "1600px",
             mt: { xs: "2rem", md: "6rem" },
           }}
         >
@@ -99,7 +97,6 @@ export const ArticleOne = () => {
                 xl: "space-between",
               },
               gap: { lg: "4rem", xl: "auto" },
-              width: "800px",
             }}
           >
             <Typography

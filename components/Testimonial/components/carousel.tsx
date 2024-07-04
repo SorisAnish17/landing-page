@@ -93,7 +93,7 @@ export const Carousel = () => {
             justifyContent: "space-between",
             mt: 2,
             alignItems: "center",
-            p: { xs: "2rem", md: "0rem" },
+            p: { xs: "2rem" },
           }}
         >
           <Box
