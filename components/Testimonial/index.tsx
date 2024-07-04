@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Typography } from "@mui/material";
+import { Box, Typography, Container } from "@mui/material";
 import { Carousel } from "./components/carousel";
 
 export const Testimonial = () => {
@@ -16,13 +16,15 @@ export const Testimonial = () => {
         py: "2rem",
       }}
     >
-      <Typography
-        variant="h2"
-        sx={{ fontFamily: "Soligant,serif", textAlign: "center" }}
-      >
-        Testimonial
-      </Typography>
-      <Carousel />
+      <Container maxWidth={"xl"}>
+        <Typography
+          variant="h2"
+          sx={{ fontFamily: "Soligant,serif", textAlign: "center" }}
+        >
+          Testimonial
+        </Typography>
+        <Carousel />
+      </Container>
     </Box>
   );
 };
