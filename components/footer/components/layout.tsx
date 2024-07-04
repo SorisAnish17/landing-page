@@ -136,7 +136,7 @@ export const LayOut = () => {
             <Typography
               variant="h6"
               sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              className="soligant"
+              fontFamily={"Soligant,serif"}
             >
               Catering
             </Typography>
@@ -181,7 +181,7 @@ export const LayOut = () => {
             <Typography
               variant="h6"
               sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              className="soligant"
+              fontFamily={"Soligant,serif"}
             >
               Venues
             </Typography>
@@ -226,7 +226,7 @@ export const LayOut = () => {
             <Typography
               variant="h6"
               sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              className="soligant"
+              fontFamily={"Soligant,serif"}
             >
               The Farm
             </Typography>
@@ -271,7 +271,7 @@ export const LayOut = () => {
             <Typography
               variant="h6"
               sx={{ fontSize: "2.5rem", mb: { md: "1rem" } }}
-              className="soligant"
+              fontFamily={"Soligant,serif"}
             >
               The Company
             </Typography>
@@ -324,10 +324,7 @@ export const LayOut = () => {
           }}
         >
           <Box mt={2}>
-            <Typography
-              sx={{ fontFamily: "STSong,Serif", fontSize: "2rem" }}
-              className="soligant"
-            >
+            <Typography sx={{ fontFamily: "Soligant,serif", fontSize: "2rem" }}>
               Contact Information
             </Typography>
             <Typography
@@ -374,8 +371,11 @@ export const LayOut = () => {
           </Box>
           <Box mt={2}>
             <Typography
-              className="soligant"
-              sx={{ color: "black", fontSize: "2rem" }}
+              sx={{
+                color: "black",
+                fontSize: "2rem",
+                fontFamily: "Soligant,serif",
+              }}
             >
               Follow Us
             </Typography>
@@ -401,7 +401,12 @@ export const LayOut = () => {
                   width={20}
                   height={20}
                 />{" "}
-                <Typography variant="h4" color={"#6C6C6C"} fontSize={"1rem"}>
+                <Typography
+                  variant="h4"
+                  color={"#6C6C6C"}
+                  fontSize={"1rem"}
+                  fontFamily={"STSong,Serif"}
+                >
                   Instagram
                 </Typography>
               </Box>
@@ -419,7 +424,12 @@ export const LayOut = () => {
                   width={20}
                   height={20}
                 />
-                <Typography variant="h4" color={"#6C6C6C"} fontSize={"1rem"}>
+                <Typography
+                  variant="h4"
+                  color={"#6C6C6C"}
+                  fontSize={"1rem"}
+                  fontFamily={"STSong,Serif"}
+                >
                   Facebook
                 </Typography>
               </Box>
