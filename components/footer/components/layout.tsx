@@ -14,7 +14,7 @@ import Image from "next/image";
 export const LayOut = () => {
   return (
     <Box sx={{ bgcolor: "#FFFFFF", pt: "5rem" }}>
-      <Container>
+      <Container maxWidth={"xl"}>
         {/* section 1*/}
         <Box
           sx={{
